@@ -1,0 +1,16 @@
+theme: ''
+controlStyles:
+  - target: TaskbarFrame
+    styles:
+      - BorderThickness=0
+  - target: TaskbarFrame
+    styles:
+      - BorderBrush=Transparent
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton]
+    styles:
+      - Visibility=Collapsed
+styleConstants:
+  - ''
+resourceVariables:
+  - variableKey: ''
+    value: ''
